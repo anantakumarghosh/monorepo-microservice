@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Create version tag
-        uses: anantakumarghosh/semver-tag-action@v1.0.0
+        uses: anantakumarghosh/semver-tag-action@main
         with:
           version-level: patch
 
