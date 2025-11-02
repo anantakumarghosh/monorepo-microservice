@@ -27,6 +27,9 @@ on:
     types:
       - closed
 
+permissions:
+  contents: write
+  
 jobs:
   create-tag:
     if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.merged == true)
