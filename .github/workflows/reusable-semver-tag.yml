@@ -59,7 +59,7 @@ jobs:
           echo "✅ Created tag: ${{ steps.semver.outputs.new_tag }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 🔗 semver-tag-action Details" >> $GITHUB_STEP_SUMMARY
-          echo "Using [anantakumarghosh/semver-tag-action@${{ steps.semver.outputs.action_version }}](https://github.com/anantakumarghosh/semver-tag-action/tree/${{ steps.semver.outputs.action_version }})" >> $GITHUB_STEP_SUMMARY
+          echo "Using [anantakumarghosh/semver-tag-action](https://github.com/anantakumarghosh/semver-tag-action/tree/main)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "See the [README](https://github.com/anantakumarghosh/semver-tag-action/blob/${{ steps.semver.outputs.action_version }}/README.md) for more details." >> $GITHUB_STEP_SUMMARY
+          echo "See the [README](https://github.com/anantakumarghosh/semver-tag-action/blob/main/README.md) for more details." >> $GITHUB_STEP_SUMMARY
 
